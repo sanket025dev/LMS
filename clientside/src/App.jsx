@@ -14,8 +14,7 @@ import StudentsEnroll from './pages/teacher/StudentsEnroll'
 import Nav from './components/students/Nav'
 import CodePlayground from './components/students/CodePlayground'
 import "quill/dist/quill.snow.css";
-import Admin from './pages/admin/admin'
-
+import Admin from './pages/admin/Admin'
 
 const App = () => {
 
