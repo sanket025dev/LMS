@@ -1,5 +1,6 @@
 import React from 'react'
 import Search from './Search';
+import { assets } from '../../assets/assets';
 
 const Hero = () => {
   return (
@@ -10,6 +11,7 @@ const Hero = () => {
         <p className='md:hidden text-gray-800 max-w-sm mx-auto'>Get Connected to world-class instructors and interactive content</p>
       </div>
       <div className='flex flex-col items-center justify-end text-left w-full relative'>
+            <img src={assets.search_course} alt="" className='absolute -z-1 hidden md:block' />
         <Search/>
       </div>
 

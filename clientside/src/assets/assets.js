@@ -96,14 +96,14 @@ export const dummyTeacherData = {
     "name": "Learn It Up",
     "email": "user.learnitup@gmail.com",
     "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yclFkaDBOMmFqWnBoTTRBOXZUanZxVlo0aXYifQ",
-    "createdAt": "2024-12-12T10:56:17.930Z",
-    "updatedAt": "2024-12-12T10:56:17.930Z",
+    "createdAt": "2025-05-12T10:56:17.930Z",
+    "updatedAt": "2025-05-12T10:56:17.930Z",
     "__v": 0
 }
 
 export const dummyReviews = [
     {
-        name: 'Donald Jackman',
+        name: 'John Viktor',
         role: 'SWE 1 @ Amazon',
         image: assets.profile_img_1,
         rating: 5,
@@ -129,7 +129,7 @@ export const dummyDashboardData = {
     "totalEarnings": 707.38,
     "enrolledStudentsData": [
         {
-            "courseTitle": "Introduction to JavaScript",
+            "courseTitle": "Introduction to Ardiuno",
             "student": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Learn It Up",
@@ -145,7 +145,7 @@ export const dummyDashboardData = {
             }
         },
         {
-            "courseTitle": "Web Development Bootcamp",
+            "courseTitle": "AI ML Bootcamp",
             "student": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Learn It Up",
@@ -179,8 +179,8 @@ export const dummyStudentEnrolled = [
             "name": "Learn It Up",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
-        "courseTitle": "Introduction to JavaScript",
-        "purchaseDate": "2024-12-20T08:39:55.509Z"
+        "courseTitle": "Introduction to AI MLs",
+        "purchaseDate": "2025-05-20T08:39:55.509Z"
     },
     {
         "student": {
@@ -188,8 +188,8 @@ export const dummyStudentEnrolled = [
             "name": "Learn It Up",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
-        "courseTitle": "Introduction to JavaScript",
-        "purchaseDate": "2024-12-20T08:59:49.964Z"
+        "courseTitle": "Introduction to CyberSecurity",
+        "purchaseDate": "2025-05-20T08:59:49.964Z"
     },
     {
         "student": {
@@ -198,7 +198,7 @@ export const dummyStudentEnrolled = [
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
         "courseTitle": "Advanced Python Programming",
-        "purchaseDate": "2024-12-20T11:03:42.931Z"
+        "purchaseDate": "2025-05-20T11:03:42.931Z"
     },
     {
         "student": {
@@ -206,8 +206,8 @@ export const dummyStudentEnrolled = [
             "name": "Learn It Up",
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
-        "courseTitle": "Web Development Bootcamp",
-        "purchaseDate": "2024-12-20T11:04:48.798Z"
+        "courseTitle": "AI ML Bootcamp",
+        "purchaseDate": "2025-05-20T11:04:48.798Z"
     }
 ]
 
@@ -258,7 +258,7 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "Data Types in JavaScript",
+                        "lectureTitle": "Data Types in Python",
                         "lectureDuration": 10,
                         "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
                         "isPreviewFree": false,
@@ -280,8 +280,8 @@ export const dummyCourses = [
                 "_id": "6773e37360cb0ab974342314"
             }
         ],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2025-01-02T04:47:44.701Z",
+        "createdAt": "2025-05-17T08:16:53.622Z",
+        "updatedAt": "2025-05-02T04:47:44.701Z",
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/zJ-LqeX_fLU/maxresdefault.jpg"
     },
@@ -352,8 +352,8 @@ export const dummyCourses = [
                 "_id": "6776369244daad0f313d81a9"
             }
         ],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2025-01-02T06:47:54.446Z",
+        "createdAt": "2025-05-17T08:16:53.622Z",
+        "updatedAt": "2025-05-02T06:47:54.446Z",
         "__v": 3,
         "courseThumbnail": "https://img.youtube.com/vi/K5KVEU3aaeQ/maxresdefault.jpg"
     },
@@ -418,8 +418,8 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-27T11:30:00.000Z",
-        "updatedAt": "2024-12-31T04:14:49.773Z",
+        "createdAt": "2025-05-27T11:30:00.000Z",
+        "updatedAt": "2025-05-31T04:14:49.773Z",
         "__v": 2,
         "courseThumbnail": "https://img.youtube.com/vi/jZFaMEqEqEQ/maxresdefault.jpg"
     },
@@ -438,7 +438,7 @@ export const dummyCourses = [
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "Introduction to HTML",
+                        "lectureTitle": "Introduction to AI",
                         "lectureDuration": 600,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": true,
@@ -446,7 +446,7 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Styling with CSS",
+                        "lectureTitle": "Learning with ML",
                         "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
@@ -461,7 +461,7 @@ export const dummyCourses = [
                 "chapterContent": [
                     {
                         "lectureId": "lecture3",
-                        "lectureTitle": "JavaScript Basics",
+                        "lectureTitle": "AI Basics",
                         "lectureDuration": 800,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": true,
@@ -469,7 +469,7 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "DOM Manipulation",
+                        "lectureTitle": "AI Manipulation",
                         "lectureDuration": 850,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
@@ -484,8 +484,8 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2024-12-31T05:31:27.290Z",
+        "createdAt": "2025-05-17T08:16:53.622Z",
+        "updatedAt": "2025-05-31T05:31:27.290Z",
         "__v": 2,
         "courseThumbnail": "https://img.youtube.com/vi/5NgNicANyqM/maxresdefault.jpg"
     },
@@ -549,8 +549,8 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2024-12-31T05:32:55.357Z",
+        "createdAt": "2025-05-17T08:16:53.622Z",
+        "updatedAt": "2025-05-31T05:32:55.357Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/0yboGn8errU/maxresdefault.jpg"
     }

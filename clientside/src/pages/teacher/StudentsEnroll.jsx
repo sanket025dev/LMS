@@ -7,7 +7,7 @@ const StudentsEnroll = () => {
   const [enrolledStudents, setEnrolledStudents] = useState(null)
 
   const fetchEnrolledStudents = async () => {
-    setEnrolledStudents(dummyStudentEnrolled)
+    setEnrolledStudents(dummyStudentEnrolled);
   }
 
   useEffect(()=>{
@@ -15,7 +15,7 @@ const StudentsEnroll = () => {
   },[])
 
   return  enrolledStudents ? (
-        <div className='min-h-screen flex flex-col items-start justify-between md:p-8 md:pb-0 pt-8 pb-0'>
+    <div className='min-h-screen flex flex-col items-start justify-between md:p-8 md:pb-0 pt-8 pb-0'>
       <div className='flex flex-col items-center max-w-4xl w-full overflow-hidden rounded-md bg-white border-gray-500/20'>
         <table className='table-fixed md:table-auto w-full overflow-hidden pb-4'>
           <thead className='text-gray-900 border-b border-gray-500/20 text-sm text-left'>

@@ -15,7 +15,6 @@ const Search = ({data}) => {
   return (
 
     <>
-    <img src={assets.search_course} alt="" className='absolute -z-1 hidden md:block' />
       <form onSubmit={onSearch} className='max-w-xl w-full md:h-14 h-12 flex items-center bg-white border border-gray-500/20 rounded z-2 relative shadow'>
         <img src={assets.search_icon} alt="search-icon" className='md:w-auto w-10 px-3' />
         <input onChange={e => setInput(e.target.value)} value={input} type="text" placeholder='Search for courses' className='w-full h-full outline-none text=gray-500/80'/>

@@ -10,6 +10,7 @@ const Sidebar = () => {
         {name: 'My Course', path:'/teacher/my-courses',icon: assets.home_icon},
         {name: 'Student Data', path:'/teacher/student-enrolled',icon: assets.home_icon},
         {name: 'Add Teacher', path:'/teacher/add-teacher',icon: assets.home_icon},
+        {name: 'Student Data', path:'/teacher/add-teacher',icon: assets.home_icon},
 
       ];
 
