@@ -1,13 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { executeCode } from './api';
 
 const OutputCode = ({editorRef, fileName}) => {
+
+  const [output, setOutput] = useState(null)
 
   const runCode = async() => {
       const sourceCode = editorRef.current.getValue();
       if (!sourceCode) return;
       try {
-        const {} = await executeCode(fileName,sourceCode)
+        const {run:result} = await executeCode(fileName,sourceCode)
+        setOutput(result.output)
       }catch (error){}
   };
 
@@ -18,8 +21,12 @@ const OutputCode = ({editorRef, fileName}) => {
         <div className='bg-white py-3'>
           <button onClick={runCode} className= 'border border-orange-500 text-orange-500 py-2 px-4 mr-5 rounded hover:underline'>Run Code</button>
         </div>
-        <div className='text-white px-2'>
-            <p>Hello World</p>
+        <div className='text-gray-400 px-2'>
+            <p>
+              {
+                output ? output : 'Click Run Code for the output'
+              }
+            </p>
         </div>
       </div>
         
