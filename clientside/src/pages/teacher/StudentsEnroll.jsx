@@ -31,10 +31,10 @@ const StudentsEnroll = () => {
               <tr key={index} className='border-b border-gray-500/20'>
                 <td className='px-4 py-3 text-center hidden sm:table-cell'>{index + 1}</td>
                 <td className='md:px-4 px-2 py-3 flex items-center space-x-3'>
-                  <img
+                  {/* <img
                   src={item.student.imageUrl}
                   className='w-9 h-9 rounded-full'
-                  />
+                  /> */}
                   <span>{item.student.name}</span>
                 </td>
                 <td className='px-4 py-3'>{item.courseTitle}</td>
