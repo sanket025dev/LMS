@@ -69,7 +69,7 @@ const AddCourse = () => {
         <div>
           <p>chapters and lectures fields in progress...</p>
         </div>
-
+        <button type='submit' className='bg-black text-white w-max py-2.5 px-8 rounded my-4'>ADD</button>
       </form>
     </div>
   )
