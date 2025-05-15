@@ -15,6 +15,7 @@ import Nav from './components/students/Nav'
 import CodePlayground from './components/students/CodePlayground'
 import "quill/dist/quill.snow.css";
 import Admin from './pages/admin/Admin'
+import Quiz from './components/students/Quiz'
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
         <Route path='/player/:courseId' element={<CoursePlayer/>}/>
         <Route path='/load/:path' element={<Load/>}/>
         <Route path='/codeplayground' element={<CodePlayground/>}/>
+        <Route path='/courseTest' element={<Quiz/>} />
         <Route path='/admin' element={<Admin/>}/>
         <Route path='/teacher' element={<Teacher />}>
             <Route path='/teacher' element={<Dashboard/>}/>
