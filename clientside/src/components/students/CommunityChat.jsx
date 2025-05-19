@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import ChatEnterRoom from './chatEnterRoom'
+import ChatEnterRoom from './ChatEnterRoom'
 import ChatList from './ChatList'
 import SendTextarea from './SendTextarea'
 import socketIOClient from 'socket.io-client'
