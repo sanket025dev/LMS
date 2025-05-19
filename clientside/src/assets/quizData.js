@@ -1,0 +1,42 @@
+export const quizData = [
+    {
+      question: "What language is the Arduino IDE built on?",
+      option1: "Java",
+      option2: "HTML",
+      option3: "C/C++",
+      option4: "Python",
+      ans: 4,
+    },
+    {
+      question: "What is LED?",
+      option1: "a light",
+      option2: "a light emitting diode",
+      option3: "a part of circuit",
+      option4: "a resistor",
+      ans: 2,
+    },
+    {
+      question: "Junk e-mail is also called?",
+      option1: "Spam",
+      option2: "Fake",
+      option3: "Archived",
+      option4: "Bin",
+      ans: 1,
+    },
+    {
+      question: "A computer cannot BOOT if it does not have the?",
+      option1: "Application Software",
+      option2: "Internet",
+      option3: "Operating System",
+      option4: "Mouse",
+      ans: 3,
+    },
+    {
+      question: "First page of Website is termed as?",
+      option1: "Index Page",
+      option2: "Homepage",
+      option3: "Sitemap",
+      option4: "Pen Drive",
+      ans: 2,
+    },
+  ];

@@ -15,6 +15,8 @@ import Nav from './components/students/Nav'
 import CodePlayground from './components/students/CodePlayground'
 import "quill/dist/quill.snow.css";
 import Admin from './pages/admin/Admin'
+import Quiz from './components/students/Quiz'
+import CommunityChat from './components/students/CommunityChat'
 
 const App = () => {
 
@@ -24,7 +26,7 @@ const App = () => {
   return (
     <div className='text-default min-h-screen bg-white'>
       {!isTeacherRoute && <Nav/>}
-      
+
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/course-list/' element={<CourseList/>}/>
@@ -34,6 +36,8 @@ const App = () => {
         <Route path='/player/:courseId' element={<CoursePlayer/>}/>
         <Route path='/load/:path' element={<Load/>}/>
         <Route path='/codeplayground' element={<CodePlayground/>}/>
+        <Route path='/communityChat' element={<CommunityChat/>} />
+        <Route path='/courseTest' element={<Quiz/>} />
         <Route path='/admin' element={<Admin/>}/>
         <Route path='/teacher' element={<Teacher />}>
             <Route path='/teacher' element={<Dashboard/>}/>

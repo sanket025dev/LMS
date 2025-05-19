@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { dummyCourses } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
+import{ useAuth, useUser} from "@clerk/clerk-react"
 
 export const AppContext = createContext()
 export const AppContextProvider = (props)=>{
@@ -10,6 +11,10 @@ export const AppContextProvider = (props)=>{
 
     // course section
     const [allCourses, setAllCourses]= useState([])
+
+    const {getToken} = useAuth()
+    const {user} = useUser()
+
     // const [forTeacher, setForTeacher]= useState(true)
     const [enrolledCourses, setEnrolledCourses] = useState([])
 
@@ -27,6 +32,16 @@ export const AppContextProvider = (props)=>{
         fetchAllCourses()
         fetcUserEnrolledCourses()
     },[])
+
+    const logToken = async ()=>{
+        console.log(await getToken());
+    }
+
+    useEffect(() => {
+        if(user){
+            logToken()
+        }
+    },[user])
     
 
     const value = {
