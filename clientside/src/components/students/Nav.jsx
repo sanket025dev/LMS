@@ -20,6 +20,7 @@ const Nav = () => {
 
                 <Link to='/course-list'>Our Courses</Link>
                 <Link to={'/codeplayground'}>Code Playground</Link>
+                <Link to={'/communityChat'}>Community Chat</Link>
                 <Link to='/courseTest'>Quizzer</Link> 
                 {!user && <Link to={'/teacher'}>For Mentors</Link>}
                 {/* hide routes */}

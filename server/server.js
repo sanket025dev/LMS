@@ -7,8 +7,9 @@ import { clerkWebhooks } from './controllers/webhooks.js'
 import connectCloudinary from './configs/cloudinary.js'
 import teacherRouter from './routes/teacherRoutes.js'
 import { clerkMiddleware } from '@clerk/express'
+import {Server} from 'socket.io'
 
-
+ 
 const app = express() 
 app.use(cors())
 app.use(clerkMiddleware())
@@ -17,6 +18,24 @@ app.use(clerkMiddleware())
 await connectDB()
 await connectCloudinary()
 
+//socket 
+const io = new Server(_, {
+    cors:{
+        origin:"*"
+    }
+})
+
+io.on("connection",(socket)=>{
+    console.log("connected");
+
+    socket.on("chat", chat=>{
+        io.emit("chat",chat)
+    })
+
+    socket.on("disconnect",()=>{
+        console.log("disconnect")
+    })
+})
 
 // routes
 app.get('/', (req, res) => res.send("API iss working"))

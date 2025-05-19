@@ -57,7 +57,6 @@ const Quiz = () => {
         setResult(false);   
     }
 
-
   return (
     <>
     
